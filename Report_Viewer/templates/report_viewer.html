@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<div class="container row">
+    <div class="col-4">
+        <div class="container col">
+            row justify-content-start
+            <button class="row justify-content-start">
+                <a 
+                    href="{% url 'home' %}" 
+                    class="text-white text-decoration-none h5 text-center btn btn-success" 
+                    title="Home-page">BACK
+                </a>
+            </button>
+            <button class="row justify-content-start"><a>VIEW SCAN</a></button>
+            <button class="row justify-content-start"><a>SETTINGS</a></button>
+            <button class="row justify-content-start"><a>HELP</a></button>
+        </div>
+    </div>
+    <div class="col-4">
+        <form action="">
+            Home
+        </form>
+    </div>
+    <div class="col-4">
+        <a href="{% url 'home' %}" class="text-white text-decoration-none h5 text-center btn btn-success" title="This direct you to the home page">Home Page</a> 
+    </div>
+
+</div>
+<!-- <h1>Future home of report viewer</h1> -->
+
+
+{% endblock %}

@@ -1,0 +1,39 @@
+/*restriction of the iowa logo */
+.block-logo{max-height:64px;}
+
+
+/* style and display width for the dropdox asscoaited with the hotkeys*/
+
+.hotkeys{
+
+  min-width: 25vw;
+
+}
+
+
+/*responsive media query */
+@media only screen and (max-width: 768px) {
+
+
+  .hotkeys{
+
+min-width: 50vw;
+
+}
+
+}
+
+#cancelCenterBtn{display: none;}
+
+
+.fa-star{
+  color:#ffffff;
+  text-shadow: 0 0 5px #000;
+  
+}
+
+.fa-star_clicked{
+  color:#198754;
+  text-shadow: 0 0 5px #fff;
+  
+}
